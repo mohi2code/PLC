@@ -14,10 +14,10 @@ Note: input3.mpl should generate an error
 
 ## Variables
 **Types** 
-* number: represents integers and float numbers.
-* text  : represents all alphabet characters singular, or plural
+* **number**: represents integers and float numbers.
+* **text**: represents all alphabet characters singular, or plural
 
-**Variable declaration** <br>
+**Variables declaration** <br>
 all variables identifiers should start with an underscore and every statement should end with a newline, no semicolons needed.
 
 **Variables assignment** <br>
@@ -25,7 +25,7 @@ assignment can be done upon declaration or in a new statement
 
 *example*: <br>
 `number _apples` <br>
-`text   _name` <br>
+`_apples = 5000` <br>
 `number _trees = _apples / 50`<br>
 <br>
 
