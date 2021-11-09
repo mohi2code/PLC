@@ -18,7 +18,7 @@ Note: input3.mpl should generate an error
 * text  : represents all alphabet characters singular, or plural
 
 **Variable declaration** <br>
-all variable identifiers should start with an underscore and every statement should end with a newline, no semicolons needed.
+all variables identifiers should start with an underscore and every statement should end with a newline, no semicolons needed.
 
 **Variables assignment** <br>
 assignment can be done upon declaration or in a new statement
@@ -30,10 +30,10 @@ assignment can be done upon declaration or in a new statement
 <br>
 
 ## Arithmatic operations
-`+` addition operator
-`-` substraction operator
-`*` multiplication operator
-`/` division operator
+* `+` addition operator 
+* `-` substraction operator
+*  `*` multiplication operator
+* `/` division operator
 
 *example*:<br>
 `number _x = 5 * 4` <br>
@@ -41,9 +41,9 @@ assignment can be done upon declaration or in a new statement
 
 ## Boolean expressions & Comparison operators
 `equals` checks for equality between two variabls <br>
-`not equals` to check for inequality between two variables <br>
+`not equals` checks for inequality between two variables <br>
 `bigger than` returns true if left hand variable is bigger than the right hand variable <br>
-`less than` returns true if the left hand variable is less than the right <br>
+`less than` returns true if the left hand variable is less than the right hand variable <br>
 
 *example* <br>
 `number _students = 5` <br>
