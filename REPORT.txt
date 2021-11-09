@@ -1,0 +1,79 @@
+**Note: 
+    For a detailed explanation of the semantics please visit:
+    https://github.com/mohi2code/PLC
+
+
+/******************* BNF notation of yacc file ***********************/
+
+<START>::= <program>
+
+<program>::= <statments> 
+
+<statements>::= <statments> <statement> | <statement>
+
+<statement>::=       <expressions> N | <if_statement> | <while_statement> | N
+
+<if_statement>::=    IF <expression> N <statements>
+                     |
+                     IF <expression> N <statements> IFNOT <statements>
+
+<while_statement>::= WHILE <expression> N <statements>
+
+<expressions>::=     <expression> | <expression> <expressions> 
+
+<expression>::=      
+                 <expression> ASSIGNMENT <expression> 
+                 |
+                 <expression> TIMES <expression> 
+                 |
+                 <expression> DIVISION <expression> 
+                 |
+                 <expression> MINUS <expression> 
+                 |
+                 <expression> PLUS <expression> 
+                 |   
+                 <expression> <boolean_expression> <expression>
+                 |
+                 <declaration>
+                 |
+                 <IDENTIFIER>
+                 |
+                 <literal> 
+
+<boolean_expression>::=     EQUALS | NOT_EQUALS | BIGGER_THAN | LESS_THAN
+
+<declaration>::=     NUMBER IDENTIFIER | TEXT IDENTIFIER
+
+<literal>::=         NUMBER_LITERAL | TEXT_LITERAL
+
+
+/************************ BNF notation of lex file ***********************/ 
+
+"+"::=        <PLUS>
+"-"::=        <MINUS>
+"*"::=        <TIMES>
+"/"::=        <DIVISION>
+"="::=        <ASSIGNMENT>
+
+"equals"::=      <EQUALS>
+"not equals"::=  <NOT_EQUALS>
+"bigger than"::= <BIGGER_THAN>
+"less than"::=   <LESS_THAN>
+
+"number "::=  <NUMBER>
+"text "::=    <TEXT>
+
+"if "::=      <IF>
+"if not "::=  <IFNOT>   
+
+"while "::=   <WHILE>
+
+[+-]?[0-9]+::=          <NUMBER_LITERAL>
+
+[a-zA-Z]+::=            <TEXT_LITERAL>
+
+_[a-zA-Z0-9]+::=    <IDENTIFIER>
+
+
+\n::=         <N>
+
