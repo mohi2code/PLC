@@ -75,6 +75,6 @@ assignment can be done upon declaration or in a new statement
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`_adults = _adults + 1` <br>
 <br>
 
-## Presedence and Associavity rules
+## Presedence Rules
 `/ * - +` left to right <br>
 `equals, not equals, bigger than, less than` left to right <br>
