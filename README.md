@@ -1,8 +1,8 @@
 ## OVERVIEW ✨
-This text file contains general semantic rules and briefly summarizes details regarding the lexical analyzer.
+This documentation contains general semantic rules and briefly summarizes details regarding the lexical analyzer.
 
 ## GOAL 🎯
-This semantic for the language was designed to be readable and easy to learn 
+The semantic for the language was designed to be readable and easy to learn 
 
 ## How to run <br>
 `flex mohi.l` <br>
