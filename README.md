@@ -1,10 +1,10 @@
-##OVERVIEW ✨
+## OVERVIEW ✨
 This text file contains general semantic rules and briefly summarizes details regarding the lexical analyzer.
 
-##GOAL 🎯
+## GOAL 🎯
 This semantic for the language was designed to be readable and easy to learn 
 
-##How to run <br>
+## How to run <br>
 `flex mohi.l` <br>
 `bison mohi.y -d` <br>
 `gcc mohi.tab.c -lfl -o mohi` <br>
@@ -23,10 +23,10 @@ all variable identifiers should start with an underscore and every statement sho
 **Variables assignment**
 assignment can be done upon declaration or in a new statement
 
-*example*:
-`number _apples`
-`text   _name` 
-`number _trees = _apples / 50`
+*example*: <br>
+`number _apples` <br>
+`text   _name` <br>
+`number _trees = _apples / 50`<br>
 <br>
 
 ##Arithmatic operations
@@ -35,8 +35,8 @@ assignment can be done upon declaration or in a new statement
 `*` multiplication operator
 `/` division operator
 
-*example*:
-`number _x = 5 * 4`
+*example*:<br>
+`number _x = 5 * 4` <br>
 <br>
 
 ##Boolean expressions & Comparison operators
@@ -45,36 +45,36 @@ assignment can be done upon declaration or in a new statement
 `bigger than` returns true if left hand variable is bigger than the right hand variable
 `less than` returns true if the left hand variable is less than the right hand variable
 
-*example*
-`number _students = 5`
-`number _teachers = 4`
-`_x equals _y` should evaluate to false
+*example* <br>
+`number _students = 5` <br>
+`number _teachers = 4` <br>
+`_x equals _y` should evaluate to false <br>
 <br>
 
 ## IF/ELSE Statement
-*semantic and structure*
-`if expression`
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`statements`
-`if not`
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`statements`
+*semantic and structure* <br>
+`if expression` <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`statements` <br>
+`if not` <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`statements` <br>
 
-*example*
-`if _x equals 5`
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`_x = _x + 1`
-`if not`
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`_x = 5`
+*example* <br>
+`if _x equals 5` <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`_x = _x + 1` <br>
+`if not` <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`_x = 5` <br>
 <br>
 
 ## While Loop
-*semantic and structure*
-`while expression`
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`statements`
+*semantic and structure* <br>
+`while expression` <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`statements` <br>
 
-*example*
-`while _age bigger than 18`
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`_adults = _adults + 1`
+*example* <br>
+`while _age bigger than 18` <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`_adults = _adults + 1` <br>
 <br>
 
 ## Presedence and Associavity rules
-`/ * - +` left to right
-`equals, not equals, bigger than, less than` left to right
+`/ * - +` left to right <br>
+`equals, not equals, bigger than, less than` left to right <br>
