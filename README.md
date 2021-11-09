@@ -26,6 +26,7 @@ assignment can be done upon declaration or in a new statement
 *example*: <br>
 `number _apples` <br>
 `_apples = 5000` <br>
+or <br>
 `number _trees = _apples / 50`<br>
 <br>
 
