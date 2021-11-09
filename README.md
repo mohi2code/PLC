@@ -4,11 +4,11 @@ This text file contains general semantic rules and briefly summarizes details re
 ##GOAL 🎯
 This semantic for the language was designed to be readable and easy to learn 
 
-##How to run
-`flex mohi.l`
-`bison mohi.y -d`
-`gcc mohi.tab.c -lfl -o mohi`
-`./mohi`
+##How to run <br>
+`flex mohi.l` <br>
+`bison mohi.y -d` <br>
+`gcc mohi.tab.c -lfl -o mohi` <br>
+`./mohi` <br>
 Note: input3.mpl should generate an error
 
 
