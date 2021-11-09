@@ -12,15 +12,15 @@ This semantic for the language was designed to be readable and easy to learn
 Note: input3.mpl should generate an error
 
 
-## Variable
+## Variables
 **Types** 
 * number: represents integers and float numbers.
 * text  : represents all alphabet characters singular, or plural
 
-**Variable declaration**
+**Variable declaration** <br>
 all variable identifiers should start with an underscore and every statement should end with a newline, no semicolons needed.
 
-**Variables assignment**
+**Variables assignment** <br>
 assignment can be done upon declaration or in a new statement
 
 *example*: <br>
@@ -39,16 +39,16 @@ assignment can be done upon declaration or in a new statement
 `number _x = 5 * 4` <br>
 <br>
 
-##Boolean expressions & Comparison operators
-`equals` checks for equality between two variabls
-`not equals` to check for inequality between two variables
-`bigger than` returns true if left hand variable is bigger than the right hand variable
-`less than` returns true if the left hand variable is less than the right hand variable
+## Boolean expressions & Comparison operators
+`equals` checks for equality between two variabls <br>
+`not equals` to check for inequality between two variables <br>
+`bigger than` returns true if left hand variable is bigger than the right hand variable <br>
+`less than` returns true if the left hand variable is less than the right <br>
 
 *example* <br>
 `number _students = 5` <br>
 `number _teachers = 4` <br>
-`_x equals _y` should evaluate to false <br>
+`_students equals _teachers` should evaluate to false <br>
 <br>
 
 ## IF/ELSE Statement
