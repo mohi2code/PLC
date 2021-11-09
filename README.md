@@ -12,7 +12,7 @@ This semantic for the language was designed to be readable and easy to learn
 Note: input3.mpl should generate an error
 
 
-##Variable
+## Variable
 **Types** 
 * number: represents integers and float numbers.
 * text  : represents all alphabet characters singular, or plural
@@ -29,7 +29,7 @@ assignment can be done upon declaration or in a new statement
 `number _trees = _apples / 50`<br>
 <br>
 
-##Arithmatic operations
+## Arithmatic operations
 `+` addition operator
 `-` substraction operator
 `*` multiplication operator
